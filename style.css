@@ -13,19 +13,12 @@
 .delete-task-btn:hover {
     color: red;
 }
-
-.bg-img {
-    background-image: url("./images/pexels-francesco-ungaro-396547.jpg");
-    /* background-image: url("./images/photo-1569470451072-68314f596aec.jfif"); */
-
-}
-
 .border-gradient {
     font-size: 16px;
     border: 3px solid transparent;
     border-radius: 5px;
     background: white;
-    background: linear-gradient(45deg, #fd0505, #fafaf5, #080808, red);
+    background: linear-gradient(45deg, #fafaf5,rgb(4, 216, 248),#fafaf5);
     cursor: pointer;
     transition: color 0.3s ease;
     color: black;
@@ -33,12 +26,7 @@
 
 .image-text {
     font-weight: bold;
-    background-image: url('./images/download\ \(1\).jfif'); 
-    background-size: cover; 
-    background-clip: text; 
-    -webkit-background-clip: text; 
-    color: transparent; 
-    display: inline-block; 
+   color: #fafaf5;
     display: flex;
     justify-content:end;
   }
