@@ -11,7 +11,7 @@
 }
 
 .delete-task-btn:hover {
-    color: red;
+    color: rgb(4, 216, 248);
 }
 .border-gradient {
     font-size: 16px;
@@ -23,7 +23,6 @@
     transition: color 0.3s ease;
     color: black;
 }
-
 .image-text {
     font-weight: bold;
    color: #fafaf5;
@@ -31,7 +30,7 @@
     justify-content:end;
   }
 .text-red{
-    color: #fd0505;
+    color: rgb(4, 216, 248);
 }
 
   

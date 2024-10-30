@@ -45,12 +45,11 @@ $(document).ready(function () {
         $('.task-list').sortable({
             connectWith: '.task-list',
             placeholder: 'sortable-placeholder',
-            start: function (event, ui) {
-                ui.placeholder.height(ui.item.height());
-            }
+            // start: function (event, ui) {
+            //     ui.placeholder.height(ui.item.height());
+            // }
         }).disableSelection();
     }
-
     $('#columnInput').on('keypress', function (e) {
         if (e.which === 13) { // Enter key
             $('#addColumnBtn').click();
